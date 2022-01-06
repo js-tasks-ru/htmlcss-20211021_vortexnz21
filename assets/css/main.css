@@ -12,6 +12,14 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --blue-400: #4263EB;
+    --blue-600: #2342C0;
+    --purple-400: #7048E8;
+    --purple-700: #5028C6;
+    --grey-800: #495057;
+    --grey-900: #212429;
+    --grey-200: #ACB5BD;
+
     --error: var(--red);
     --success: var(--blue);
 
