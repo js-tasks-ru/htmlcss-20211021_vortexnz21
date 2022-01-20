@@ -1,0 +1,55 @@
+.skeleton {
+    box-sizing: border-box;
+    width: 579px;
+    min-width: 0; /* wouldn't squeeze without it */
+    height: 192px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 24px 40px 32px 24px;
+}
+
+.skeleton__top {
+    display: flex;
+    gap: 16px;
+}
+
+.skeleton__bottom {
+    margin-top: 24px;
+}
+
+.skeleton__circle {
+    min-width: 64px;
+    min-height: 64px;
+    border-radius: 50%;
+    background: var(--grey-2);
+}
+
+.skeleton__lines {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: auto 0;
+    min-width: 0; /* wouldn't squeeze without it */
+}
+
+.skeleton__line {
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    height: 20px;
+}
+
+.line-1 {
+    width: 172px;
+}
+
+.line-2 {
+    width: 257px;
+}
+
+.line-3 {
+    width: 515px;
+}
+
+.line-4 {
+    width: 515px;
+}
