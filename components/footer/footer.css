@@ -3,6 +3,7 @@
     background-color: var(--white);
     text-align: center;
     color: var(--grey-900);
+    border-top: 1px solid var(--grey-2);
 }
 
 .footer__title {
@@ -23,7 +24,7 @@
     margin: 32px 0 0 0;
 }
 
-.container_footer {
+.footer__text-container {
     max-width: 640px;
-    margin: 0 auto;
+    margin: 32px auto 0;
 }
