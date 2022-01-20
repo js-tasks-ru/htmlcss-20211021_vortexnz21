@@ -1,8 +1,7 @@
 .skeleton {
     box-sizing: border-box;
-    width: 579px;
-    min-width: 0; /* wouldn't squeeze without it */
-    height: 192px;
+    max-width: 579px;
+    max-height: 192px;
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     padding: 24px 40px 32px 24px;
@@ -26,30 +25,32 @@
 
 .skeleton__lines {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 100%;
     gap: 8px;
     margin: auto 0;
-    min-width: 0; /* wouldn't squeeze without it */
 }
 
 .skeleton__line {
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    height: 20px;
+    min-height: 20px;
 }
 
-.line-1 {
-    width: 172px;
+.skeleton__line_short {
+    width: 33%;
 }
 
-.line-2 {
-    width: 257px;
+.skeleton__line_medium {
+    width: 50%;
 }
 
-.line-3 {
-    width: 515px;
+.skeleton__line_long {
+    width: 100%;
 }
 
-.line-4 {
-    width: 515px;
+
+
+.container__skeleton {
+    margin: auto;
+    flex-basis: 100%;
 }
