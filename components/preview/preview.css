@@ -1,4 +1,8 @@
 .preview {
-    height: 400px;
+    height: 100%;
     background-color: var(--page-background);
+}
+
+.preview__card {
+    width: 350px;
 }
