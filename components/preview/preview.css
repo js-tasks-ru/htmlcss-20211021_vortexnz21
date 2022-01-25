@@ -3,6 +3,14 @@
     background-color: var(--page-background);
 }
 
+.preview__cards {
+    padding: 67px 0 204px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
 .preview__card {
     width: 350px;
 }
